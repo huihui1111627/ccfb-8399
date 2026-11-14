@@ -1,0 +1,2217 @@
+{
+  "S0": {
+    "date": "2019-01-01",
+    "companies": {
+      "BLUE": {
+        "controller": {
+          "kind": "person",
+          "leader": "P_WHF_A",
+          "members": [
+            "P_WHF_A"
+          ],
+          "pct": 0.74,
+          "relation_id": null,
+          "basis": "直接及穿透持股74.00%"
+        },
+        "beneficial_owners": [
+          {
+            "person_id": "P_WHF_A",
+            "pct": 0.74
+          }
+        ],
+        "effective": {
+          "P_WHF_A": 0.74,
+          "P_CZY": 0.1,
+          "P_LGD": 0.06,
+          "P_LIN": 0.1
+        },
+        "legal_effective": {
+          "P_WHF_A": 0.74,
+          "P_CZY": 0.1,
+          "P_LGD": 0.06,
+          "P_LIN": 0.1
+        },
+        "direct_holders": {
+          "P_WHF_A": 0.6,
+          "ZY": 0.4
+        }
+      },
+      "STAR": {
+        "controller": {
+          "kind": "person",
+          "leader": "P_WHF_A",
+          "members": [
+            "P_WHF_A"
+          ],
+          "pct": 0.55,
+          "relation_id": null,
+          "basis": "直接及穿透持股55.00%"
+        },
+        "beneficial_owners": [
+          {
+            "person_id": "P_WHF_A",
+            "pct": 0.55
+          },
+          {
+            "person_id": "P_CZY",
+            "pct": 0.45
+          }
+        ],
+        "effective": {
+          "P_WHF_A": 0.55,
+          "P_CZY": 0.45
+        },
+        "legal_effective": {
+          "P_WHF_A": 0.55,
+          "P_CZY": 0.45
+        },
+        "direct_holders": {
+          "P_WHF_A": 0.55,
+          "P_CZY": 0.45
+        }
+      },
+      "PC": {
+        "controller": {
+          "kind": "person",
+          "leader": "P_CZY",
+          "members": [
+            "P_CZY"
+          ],
+          "pct": 0.7,
+          "relation_id": null,
+          "basis": "直接及穿透持股70.00%"
+        },
+        "beneficial_owners": [
+          {
+            "person_id": "P_CZY",
+            "pct": 0.7
+          },
+          {
+            "person_id": "P_ZHAO",
+            "pct": 0.3
+          }
+        ],
+        "effective": {
+          "P_CZY": 0.7,
+          "P_ZHAO": 0.3
+        },
+        "legal_effective": {
+          "P_CZY": 0.7,
+          "P_ZHAO": 0.3
+        },
+        "direct_holders": {
+          "P_CZY": 0.7,
+          "P_ZHAO": 0.3
+        }
+      },
+      "ZY": {
+        "controller": {
+          "kind": "person",
+          "leader": "P_WHF_A",
+          "members": [
+            "P_WHF_A"
+          ],
+          "pct": 0.35,
+          "relation_id": null,
+          "basis": "直接及穿透持股35.00%"
+        },
+        "beneficial_owners": [
+          {
+            "person_id": "P_WHF_A",
+            "pct": 0.35
+          }
+        ],
+        "effective": {
+          "P_WHF_A": 0.35,
+          "P_CZY": 0.25,
+          "P_LGD": 0.15,
+          "P_LIN": 0.25
+        },
+        "legal_effective": {
+          "P_WHF_A": 0.35,
+          "P_CZY": 0.25,
+          "P_LGD": 0.15,
+          "P_LIN": 0.25
+        },
+        "direct_holders": {
+          "P_WHF_A": 0.35,
+          "P_CZY": 0.25,
+          "P_LGD": 0.15,
+          "P_LIN": 0.25
+        }
+      },
+      "QM": {
+        "controller": {
+          "kind": "person",
+          "leader": "P_CZY",
+          "members": [
+            "P_CZY"
+          ],
+          "pct": 0.4,
+          "relation_id": null,
+          "basis": "直接及穿透持股40.00%"
+        },
+        "beneficial_owners": [
+          {
+            "person_id": "P_CZY",
+            "pct": 0.4
+          },
+          {
+            "person_id": "P_WHF_A",
+            "pct": 0.3
+          },
+          {
+            "person_id": "P_LIN",
+            "pct": 0.3
+          }
+        ],
+        "effective": {
+          "P_WHF_A": 0.3,
+          "P_CZY": 0.4,
+          "P_LIN": 0.3
+        },
+        "legal_effective": {
+          "P_WHF_A": 0.3,
+          "P_CZY": 0.4,
+          "P_LIN": 0.3
+        },
+        "direct_holders": {
+          "P_WHF_A": 0.3,
+          "P_CZY": 0.4,
+          "P_LIN": 0.3
+        }
+      },
+      "QH": {
+        "controller": {
+          "kind": "person",
+          "leader": "P_LIN",
+          "members": [
+            "P_LIN"
+          ],
+          "pct": 0.5,
+          "relation_id": null,
+          "basis": "直接及穿透持股50.00%"
+        },
+        "beneficial_owners": [
+          {
+            "person_id": "P_LIN",
+            "pct": 0.5
+          },
+          {
+            "person_id": "P_WHF_A",
+            "pct": 0.3
+          }
+        ],
+        "effective": {
+          "P_WHF_A": 0.3,
+          "P_CZY": 0.2,
+          "P_LIN": 0.5
+        },
+        "legal_effective": {
+          "P_WHF_A": 0.3,
+          "P_CZY": 0.2,
+          "P_LIN": 0.5
+        },
+        "direct_holders": {
+          "P_WHF_A": 0.3,
+          "P_CZY": 0.2,
+          "P_LIN": 0.5
+        }
+      },
+      "HC": {
+        "controller": {
+          "kind": "person",
+          "leader": "P_CZY",
+          "members": [
+            "P_CZY"
+          ],
+          "pct": 0.55,
+          "relation_id": null,
+          "basis": "直接及穿透持股55.00%"
+        },
+        "beneficial_owners": [
+          {
+            "person_id": "P_CZY",
+            "pct": 0.55
+          }
+        ],
+        "effective": {
+          "P_WHF_A": 0.21,
+          "P_CZY": 0.55,
+          "P_LGD": 0.09,
+          "P_LIN": 0.15
+        },
+        "legal_effective": {
+          "P_WHF_A": 0.21,
+          "P_CZY": 0.55,
+          "P_LGD": 0.09,
+          "P_LIN": 0.15
+        },
+        "direct_holders": {
+          "P_CZY": 0.4,
+          "ZY": 0.6
+        }
+      },
+      "ZHI": {
+        "controller": {
+          "kind": "person",
+          "leader": "P_CZY",
+          "members": [
+            "P_CZY"
+          ],
+          "pct": 0.64,
+          "relation_id": null,
+          "basis": "直接及穿透持股64.00%"
+        },
+        "beneficial_owners": [
+          {
+            "person_id": "P_CZY",
+            "pct": 0.64
+          }
+        ],
+        "effective": {
+          "P_WHF_A": 0.168,
+          "P_CZY": 0.64,
+          "P_LGD": 0.072,
+          "P_LIN": 0.12
+        },
+        "legal_effective": {
+          "P_WHF_A": 0.168,
+          "P_CZY": 0.64,
+          "P_LGD": 0.072,
+          "P_LIN": 0.12
+        },
+        "direct_holders": {
+          "P_CZY": 0.2,
+          "HC": 0.8
+        }
+      },
+      "HENG": {
+        "controller": {
+          "kind": "person",
+          "leader": "P_CZY",
+          "members": [
+            "P_CZY"
+          ],
+          "pct": 0.42,
+          "relation_id": null,
+          "basis": "直接及穿透持股42.00%"
+        },
+        "beneficial_owners": [
+          {
+            "person_id": "P_CZY",
+            "pct": 0.42
+          },
+          {
+            "person_id": "P_LIN",
+            "pct": 0.4
+          }
+        ],
+        "effective": {
+          "P_CZY": 0.42,
+          "P_ZHAO": 0.18,
+          "P_LIN": 0.4
+        },
+        "legal_effective": {
+          "P_CZY": 0.42,
+          "P_ZHAO": 0.18,
+          "P_LIN": 0.4
+        },
+        "direct_holders": {
+          "P_LIN": 0.4,
+          "PC": 0.6
+        }
+      },
+      "ZK": {
+        "controller": {
+          "kind": "person",
+          "leader": "P_SUN",
+          "members": [
+            "P_SUN"
+          ],
+          "pct": 0.5,
+          "relation_id": null,
+          "basis": "直接及穿透持股50.00%"
+        },
+        "beneficial_owners": [
+          {
+            "person_id": "P_SUN",
+            "pct": 0.5
+          },
+          {
+            "person_id": "P_WUJ",
+            "pct": 0.5
+          }
+        ],
+        "effective": {
+          "P_SUN": 0.5,
+          "P_WUJ": 0.5
+        },
+        "legal_effective": {
+          "P_SUN": 0.5,
+          "P_WUJ": 0.5
+        },
+        "direct_holders": {
+          "P_SUN": 0.5,
+          "P_WUJ": 0.5
+        }
+      },
+      "HK": {
+        "controller": {
+          "kind": "person",
+          "leader": "P_SUN",
+          "members": [
+            "P_SUN"
+          ],
+          "pct": 0.4,
+          "relation_id": null,
+          "basis": "直接及穿透持股40.00%"
+        },
+        "beneficial_owners": [
+          {
+            "person_id": "P_SUN",
+            "pct": 0.4
+          },
+          {
+            "person_id": "P_WUJ",
+            "pct": 0.4
+          }
+        ],
+        "effective": {
+          "P_SUN": 0.4,
+          "P_WUJ": 0.4,
+          "P_MA": 0.2
+        },
+        "legal_effective": {
+          "P_SUN": 0.4,
+          "P_WUJ": 0.4,
+          "P_MA": 0.2
+        },
+        "direct_holders": {
+          "P_MA": 0.2,
+          "ZK": 0.8
+        }
+      },
+      "BLUEDEV": {
+        "controller": {
+          "kind": "person",
+          "leader": "P_WHF_C",
+          "members": [
+            "P_WHF_C"
+          ],
+          "pct": 0.8,
+          "relation_id": null,
+          "basis": "直接及穿透持股80.00%"
+        },
+        "beneficial_owners": [
+          {
+            "person_id": "P_WHF_C",
+            "pct": 0.8
+          }
+        ],
+        "effective": {
+          "P_WHF_C": 0.8,
+          "P_SUN": 0.2
+        },
+        "legal_effective": {
+          "P_WHF_C": 0.8,
+          "P_SUN": 0.2
+        },
+        "direct_holders": {
+          "P_WHF_C": 0.8,
+          "P_SUN": 0.2
+        }
+      },
+      "XING": {
+        "controller": {
+          "kind": "person",
+          "leader": "P_WHF_A",
+          "members": [
+            "P_WHF_A"
+          ],
+          "pct": 0.7,
+          "relation_id": null,
+          "basis": "直接及穿透持股70.00%"
+        },
+        "beneficial_owners": [
+          {
+            "person_id": "P_WHF_A",
+            "pct": 0.7
+          },
+          {
+            "person_id": "P_ZHOU",
+            "pct": 0.3
+          }
+        ],
+        "effective": {
+          "P_WHF_A": 0.7,
+          "P_ZHOU": 0.3
+        },
+        "legal_effective": {
+          "P_WHF_A": 0.7,
+          "P_ZHOU": 0.3
+        },
+        "direct_holders": {
+          "P_WHF_A": 0.7,
+          "P_ZHOU": 0.3
+        }
+      },
+      "COOP": {
+        "controller": {
+          "kind": "person",
+          "leader": "P_WHF_A",
+          "members": [
+            "P_WHF_A"
+          ],
+          "pct": 0.6,
+          "relation_id": null,
+          "basis": "直接及穿透持股60.00%"
+        },
+        "beneficial_owners": [
+          {
+            "person_id": "P_WHF_A",
+            "pct": 0.6
+          },
+          {
+            "person_id": "P_WHF_B",
+            "pct": 0.4
+          }
+        ],
+        "effective": {
+          "P_WHF_A": 0.6,
+          "P_WHF_B": 0.4
+        },
+        "legal_effective": {
+          "P_WHF_A": 0.6,
+          "P_WHF_B": 0.4
+        },
+        "direct_holders": {
+          "P_WHF_A": 0.6,
+          "P_WHF_B": 0.4
+        }
+      },
+      "YUANWANG": {
+        "controller": {
+          "kind": "none",
+          "leader": null,
+          "members": [],
+          "pct": 0.2,
+          "relation_id": null,
+          "basis": "股权分散，单一股东最高20.00%，不足30%"
+        },
+        "beneficial_owners": [],
+        "effective": {
+          "P_LGD": 0.2,
+          "P_ZHAO": 0.2,
+          "P_LIN": 0.2,
+          "P_ZHOU": 0.2,
+          "P_SUN": 0.2
+        },
+        "legal_effective": {
+          "P_LGD": 0.2,
+          "P_ZHAO": 0.2,
+          "P_LIN": 0.2,
+          "P_ZHOU": 0.2,
+          "P_SUN": 0.2
+        },
+        "direct_holders": {
+          "P_LGD": 0.2,
+          "P_ZHAO": 0.2,
+          "P_LIN": 0.2,
+          "P_ZHOU": 0.2,
+          "P_SUN": 0.2
+        }
+      },
+      "NOISE1": {
+        "controller": {
+          "kind": "person",
+          "leader": "P_WHF_B",
+          "members": [
+            "P_WHF_B"
+          ],
+          "pct": 0.6,
+          "relation_id": null,
+          "basis": "直接及穿透持股60.00%"
+        },
+        "beneficial_owners": [
+          {
+            "person_id": "P_WHF_B",
+            "pct": 0.6
+          },
+          {
+            "person_id": "P_ZHOU",
+            "pct": 0.4
+          }
+        ],
+        "effective": {
+          "P_WHF_B": 0.6,
+          "P_ZHOU": 0.4
+        },
+        "legal_effective": {
+          "P_WHF_B": 0.6,
+          "P_ZHOU": 0.4
+        },
+        "direct_holders": {
+          "P_WHF_B": 0.6,
+          "P_ZHOU": 0.4
+        }
+      },
+      "NOISE2": {
+        "controller": {
+          "kind": "person",
+          "leader": "P_ZHOU",
+          "members": [
+            "P_ZHOU"
+          ],
+          "pct": 0.6,
+          "relation_id": null,
+          "basis": "直接及穿透持股60.00%"
+        },
+        "beneficial_owners": [
+          {
+            "person_id": "P_ZHOU",
+            "pct": 0.6
+          },
+          {
+            "person_id": "P_WUJ",
+            "pct": 0.4
+          }
+        ],
+        "effective": {
+          "P_ZHOU": 0.6,
+          "P_WUJ": 0.4
+        },
+        "legal_effective": {
+          "P_ZHOU": 0.6,
+          "P_WUJ": 0.4
+        },
+        "direct_holders": {
+          "P_ZHOU": 0.6,
+          "P_WUJ": 0.4
+        }
+      },
+      "NOISE3": {
+        "controller": {
+          "kind": "person",
+          "leader": "P_WUJ",
+          "members": [
+            "P_WUJ"
+          ],
+          "pct": 0.7,
+          "relation_id": null,
+          "basis": "直接及穿透持股70.00%"
+        },
+        "beneficial_owners": [
+          {
+            "person_id": "P_WUJ",
+            "pct": 0.7
+          },
+          {
+            "person_id": "P_ZHENG",
+            "pct": 0.3
+          }
+        ],
+        "effective": {
+          "P_WUJ": 0.7,
+          "P_ZHENG": 0.3
+        },
+        "legal_effective": {
+          "P_WUJ": 0.7,
+          "P_ZHENG": 0.3
+        },
+        "direct_holders": {
+          "P_WUJ": 0.7,
+          "P_ZHENG": 0.3
+        }
+      },
+      "AMBIG": {
+        "controller": {
+          "kind": "person",
+          "leader": "P_WHF_B",
+          "members": [
+            "P_WHF_B"
+          ],
+          "pct": 1.0,
+          "relation_id": null,
+          "basis": "直接及穿透持股100.00%"
+        },
+        "beneficial_owners": [
+          {
+            "person_id": "P_WHF_B",
+            "pct": 1.0
+          }
+        ],
+        "effective": {
+          "P_WHF_B": 1.0
+        },
+        "legal_effective": {
+          "P_WHF_B": 1.0
+        },
+        "direct_holders": {
+          "P_WHF_B": 1.0
+        }
+      },
+      "NOISE4": {
+        "controller": {
+          "kind": "person",
+          "leader": "P_FENG",
+          "members": [
+            "P_FENG"
+          ],
+          "pct": 0.7,
+          "relation_id": null,
+          "basis": "直接及穿透持股70.00%"
+        },
+        "beneficial_owners": [
+          {
+            "person_id": "P_FENG",
+            "pct": 0.7
+          },
+          {
+            "person_id": "P_WHF_D",
+            "pct": 0.3
+          }
+        ],
+        "effective": {
+          "P_WHF_D": 0.3,
+          "P_FENG": 0.7
+        },
+        "legal_effective": {
+          "P_WHF_D": 0.3,
+          "P_FENG": 0.7
+        },
+        "direct_holders": {
+          "P_WHF_D": 0.3,
+          "P_FENG": 0.7
+        }
+      }
+    }
+  },
+  "S1": {
+    "date": "2022-06-30",
+    "companies": {
+      "BLUE": {
+        "controller": {
+          "kind": "person",
+          "leader": "P_WHF_A",
+          "members": [
+            "P_WHF_A"
+          ],
+          "pct": 0.394865,
+          "relation_id": null,
+          "basis": "直接及穿透持股39.49%"
+        },
+        "beneficial_owners": [
+          {
+            "person_id": "P_WHF_A",
+            "pct": 0.394865
+          },
+          {
+            "person_id": "P_CZY",
+            "pct": 0.366516
+          }
+        ],
+        "effective": {
+          "P_WHF_A": 0.394865,
+          "P_CZY": 0.366516,
+          "P_LGD": 0.05438,
+          "P_LIN": 0.184239
+        },
+        "legal_effective": {
+          "P_WHF_A": 0.394865,
+          "P_CZY": 0.366516,
+          "P_LGD": 0.05438,
+          "P_LIN": 0.184239
+        },
+        "direct_holders": {
+          "STAR": 0.4,
+          "QH": 0.2,
+          "P_WHF_A": 0.15,
+          "P_CZY": 0.1,
+          "P_LIN": 0.1,
+          "P_LGD": 0.05
+        }
+      },
+      "STAR": {
+        "controller": {
+          "kind": "person",
+          "leader": "P_CZY",
+          "members": [
+            "P_CZY"
+          ],
+          "pct": 0.504977,
+          "relation_id": null,
+          "basis": "直接及穿透持股50.50%"
+        },
+        "beneficial_owners": [
+          {
+            "person_id": "P_CZY",
+            "pct": 0.504977
+          },
+          {
+            "person_id": "P_WHF_A",
+            "pct": 0.45923
+          }
+        ],
+        "effective": {
+          "P_WHF_A": 0.45923,
+          "P_CZY": 0.504977,
+          "P_LGD": 0.008157,
+          "P_LIN": 0.027636
+        },
+        "legal_effective": {
+          "P_WHF_A": 0.45923,
+          "P_CZY": 0.504977,
+          "P_LGD": 0.008157,
+          "P_LIN": 0.027636
+        },
+        "direct_holders": {
+          "P_WHF_A": 0.4,
+          "P_CZY": 0.45,
+          "BLUE": 0.15
+        }
+      },
+      "PC": {
+        "controller": {
+          "kind": "person",
+          "leader": "P_CZY",
+          "members": [
+            "P_CZY"
+          ],
+          "pct": 0.650995,
+          "relation_id": null,
+          "basis": "直接及穿透持股65.10%"
+        },
+        "beneficial_owners": [
+          {
+            "person_id": "P_CZY",
+            "pct": 0.650995
+          }
+        ],
+        "effective": {
+          "P_WHF_A": 0.091846,
+          "P_CZY": 0.650995,
+          "P_LGD": 0.001631,
+          "P_ZHAO": 0.25,
+          "P_LIN": 0.005527
+        },
+        "legal_effective": {
+          "P_WHF_A": 0.091846,
+          "P_CZY": 0.650995,
+          "P_LGD": 0.001631,
+          "P_ZHAO": 0.25,
+          "P_LIN": 0.005527
+        },
+        "direct_holders": {
+          "P_CZY": 0.55,
+          "P_ZHAO": 0.25,
+          "STAR": 0.2
+        }
+      },
+      "ZY": {
+        "controller": {
+          "kind": "group",
+          "leader": "P_WHF_A",
+          "members": [
+            "P_LIN",
+            "P_WHF_A"
+          ],
+          "pct": 0.632682,
+          "relation_id": "R2",
+          "basis": "一致行动合计63.27%，牵头人P_WHF_A"
+        },
+        "beneficial_owners": [
+          {
+            "person_id": "P_WHF_A",
+            "pct": 0.333799
+          },
+          {
+            "person_id": "P_LIN",
+            "pct": 0.298883
+          },
+          {
+            "person_id": "P_CZY",
+            "pct": 0.258939
+          }
+        ],
+        "effective": {
+          "P_WHF_A": 0.333799,
+          "P_CZY": 0.258939,
+          "P_LGD": 0.10838,
+          "P_LIN": 0.298883
+        },
+        "legal_effective": {
+          "P_WHF_A": 0.333799,
+          "P_CZY": 0.258939,
+          "P_LGD": 0.10838,
+          "P_LIN": 0.298883
+        },
+        "direct_holders": {
+          "P_WHF_A": 0.25,
+          "P_CZY": 0.15,
+          "P_LGD": 0.1,
+          "P_LIN": 0.2,
+          "QM": 0.3
+        }
+      },
+      "QM": {
+        "controller": {
+          "kind": "person",
+          "leader": "P_CZY",
+          "members": [
+            "P_CZY"
+          ],
+          "pct": 0.363128,
+          "relation_id": null,
+          "basis": "直接及穿透持股36.31%"
+        },
+        "beneficial_owners": [
+          {
+            "person_id": "P_CZY",
+            "pct": 0.363128
+          },
+          {
+            "person_id": "P_LIN",
+            "pct": 0.329609
+          },
+          {
+            "person_id": "P_WHF_A",
+            "pct": 0.27933
+          }
+        ],
+        "effective": {
+          "P_WHF_A": 0.27933,
+          "P_CZY": 0.363128,
+          "P_LGD": 0.027933,
+          "P_LIN": 0.329609
+        },
+        "legal_effective": {
+          "P_WHF_A": 0.27933,
+          "P_CZY": 0.363128,
+          "P_LGD": 0.027933,
+          "P_LIN": 0.329609
+        },
+        "direct_holders": {
+          "P_WHF_A": 0.15,
+          "P_CZY": 0.25,
+          "P_LIN": 0.2,
+          "ZY": 0.25,
+          "QH": 0.15
+        }
+      },
+      "QH": {
+        "controller": {
+          "kind": "group",
+          "leader": "P_CZY",
+          "members": [
+            "P_CZY",
+            "P_WHF_A"
+          ],
+          "pct": 0.628492,
+          "relation_id": "R1",
+          "basis": "一致行动合计62.85%，牵头人P_CZY"
+        },
+        "beneficial_owners": [
+          {
+            "person_id": "P_LIN",
+            "pct": 0.365922
+          },
+          {
+            "person_id": "P_CZY",
+            "pct": 0.322626
+          },
+          {
+            "person_id": "P_WHF_A",
+            "pct": 0.305866
+          }
+        ],
+        "effective": {
+          "P_WHF_A": 0.305866,
+          "P_CZY": 0.322626,
+          "P_LGD": 0.005587,
+          "P_LIN": 0.365922
+        },
+        "legal_effective": {
+          "P_WHF_A": 0.305866,
+          "P_CZY": 0.322626,
+          "P_LGD": 0.005587,
+          "P_LIN": 0.365922
+        },
+        "direct_holders": {
+          "P_WHF_A": 0.25,
+          "P_CZY": 0.25,
+          "P_LIN": 0.3,
+          "QM": 0.2
+        }
+      },
+      "HC": {
+        "controller": {
+          "kind": "person",
+          "leader": "P_CZY",
+          "members": [
+            "P_CZY"
+          ],
+          "pct": 0.350307,
+          "relation_id": null,
+          "basis": "直接及穿透持股35.03%"
+        },
+        "beneficial_owners": [
+          {
+            "person_id": "P_CZY",
+            "pct": 0.350307
+          },
+          {
+            "person_id": "P_WHF_A",
+            "pct": 0.256006
+          }
+        ],
+        "effective": {
+          "P_WHF_A": 0.256006,
+          "P_CZY": 0.350307,
+          "P_LGD": 0.088101,
+          "P_LIN": 0.155587,
+          "P_SUN": 0.06,
+          "P_WUJ": 0.06,
+          "P_MA": 0.03
+        },
+        "legal_effective": {
+          "P_WHF_A": 0.256006,
+          "P_CZY": 0.350307,
+          "P_LGD": 0.088101,
+          "P_LIN": 0.155587,
+          "P_SUN": 0.06,
+          "P_WUJ": 0.06,
+          "P_MA": 0.03
+        },
+        "direct_holders": {
+          "ZY": 0.3,
+          "QM": 0.2,
+          "HK": 0.15,
+          "P_CZY": 0.2,
+          "P_WHF_A": 0.1,
+          "P_LGD": 0.05
+        }
+      },
+      "ZHI": {
+        "controller": {
+          "kind": "person",
+          "leader": "P_CZY",
+          "members": [
+            "P_CZY"
+          ],
+          "pct": 0.480246,
+          "relation_id": null,
+          "basis": "直接及穿透持股48.02%"
+        },
+        "beneficial_owners": [
+          {
+            "person_id": "P_CZY",
+            "pct": 0.480246
+          }
+        ],
+        "effective": {
+          "P_WHF_A": 0.204804,
+          "P_CZY": 0.480246,
+          "P_LGD": 0.07048,
+          "P_LIN": 0.124469,
+          "P_SUN": 0.048,
+          "P_WUJ": 0.048,
+          "P_MA": 0.024
+        },
+        "legal_effective": {
+          "P_WHF_A": 0.204804,
+          "P_CZY": 0.480246,
+          "P_LGD": 0.07048,
+          "P_LIN": 0.124469,
+          "P_SUN": 0.048,
+          "P_WUJ": 0.048,
+          "P_MA": 0.024
+        },
+        "direct_holders": {
+          "P_CZY": 0.2,
+          "HC": 0.8
+        }
+      },
+      "HENG": {
+        "controller": {
+          "kind": "person",
+          "leader": "P_LIN",
+          "members": [
+            "P_LIN"
+          ],
+          "pct": 0.403316,
+          "relation_id": null,
+          "basis": "直接及穿透持股40.33%"
+        },
+        "beneficial_owners": [
+          {
+            "person_id": "P_LIN",
+            "pct": 0.403316
+          },
+          {
+            "person_id": "P_CZY",
+            "pct": 0.390597
+          }
+        ],
+        "effective": {
+          "P_WHF_A": 0.055108,
+          "P_CZY": 0.390597,
+          "P_LGD": 0.000979,
+          "P_ZHAO": 0.15,
+          "P_LIN": 0.403316
+        },
+        "legal_effective": {
+          "P_WHF_A": 0.055108,
+          "P_CZY": 0.390597,
+          "P_LGD": 0.000979,
+          "P_ZHAO": 0.15,
+          "P_LIN": 0.403316
+        },
+        "direct_holders": {
+          "P_LIN": 0.4,
+          "PC": 0.6
+        }
+      },
+      "ZK": {
+        "controller": {
+          "kind": "person",
+          "leader": "P_SUN",
+          "members": [
+            "P_SUN"
+          ],
+          "pct": 0.5,
+          "relation_id": null,
+          "basis": "直接及穿透持股50.00%"
+        },
+        "beneficial_owners": [
+          {
+            "person_id": "P_SUN",
+            "pct": 0.5
+          },
+          {
+            "person_id": "P_WUJ",
+            "pct": 0.5
+          }
+        ],
+        "effective": {
+          "P_SUN": 0.5,
+          "P_WUJ": 0.5
+        },
+        "legal_effective": {
+          "P_SUN": 0.5,
+          "P_WUJ": 0.5
+        },
+        "direct_holders": {
+          "P_SUN": 0.5,
+          "P_WUJ": 0.5
+        }
+      },
+      "HK": {
+        "controller": {
+          "kind": "person",
+          "leader": "P_SUN",
+          "members": [
+            "P_SUN"
+          ],
+          "pct": 0.4,
+          "relation_id": null,
+          "basis": "直接及穿透持股40.00%"
+        },
+        "beneficial_owners": [
+          {
+            "person_id": "P_SUN",
+            "pct": 0.4
+          },
+          {
+            "person_id": "P_WUJ",
+            "pct": 0.4
+          }
+        ],
+        "effective": {
+          "P_SUN": 0.4,
+          "P_WUJ": 0.4,
+          "P_MA": 0.2
+        },
+        "legal_effective": {
+          "P_SUN": 0.4,
+          "P_WUJ": 0.4,
+          "P_MA": 0.2
+        },
+        "direct_holders": {
+          "P_MA": 0.2,
+          "ZK": 0.8
+        }
+      },
+      "BLUEDEV": {
+        "controller": {
+          "kind": "person",
+          "leader": "P_WHF_A",
+          "members": [
+            "P_WHF_A"
+          ],
+          "pct": 0.8,
+          "relation_id": null,
+          "basis": "直接及穿透持股80.00%"
+        },
+        "beneficial_owners": [
+          {
+            "person_id": "P_WHF_A",
+            "pct": 0.8
+          }
+        ],
+        "effective": {
+          "P_WHF_A": 0.8,
+          "P_SUN": 0.2
+        },
+        "legal_effective": {
+          "P_WHF_C": 0.8,
+          "P_SUN": 0.2
+        },
+        "direct_holders": {
+          "P_WHF_C": 0.8,
+          "P_SUN": 0.2
+        }
+      },
+      "XING": {
+        "controller": {
+          "kind": "person",
+          "leader": "P_WHF_A",
+          "members": [
+            "P_WHF_A"
+          ],
+          "pct": 0.7,
+          "relation_id": null,
+          "basis": "直接及穿透持股70.00%"
+        },
+        "beneficial_owners": [
+          {
+            "person_id": "P_WHF_A",
+            "pct": 0.7
+          },
+          {
+            "person_id": "P_ZHOU",
+            "pct": 0.3
+          }
+        ],
+        "effective": {
+          "P_WHF_A": 0.7,
+          "P_ZHOU": 0.3
+        },
+        "legal_effective": {
+          "P_WHF_A": 0.7,
+          "P_ZHOU": 0.3
+        },
+        "direct_holders": {
+          "P_WHF_A": 0.7,
+          "P_ZHOU": 0.3
+        }
+      },
+      "COOP": {
+        "controller": {
+          "kind": "person",
+          "leader": "P_WHF_A",
+          "members": [
+            "P_WHF_A"
+          ],
+          "pct": 0.6,
+          "relation_id": null,
+          "basis": "直接及穿透持股60.00%"
+        },
+        "beneficial_owners": [
+          {
+            "person_id": "P_WHF_A",
+            "pct": 0.6
+          },
+          {
+            "person_id": "P_WHF_B",
+            "pct": 0.4
+          }
+        ],
+        "effective": {
+          "P_WHF_A": 0.6,
+          "P_WHF_B": 0.4
+        },
+        "legal_effective": {
+          "P_WHF_A": 0.6,
+          "P_WHF_B": 0.4
+        },
+        "direct_holders": {
+          "P_WHF_A": 0.6,
+          "P_WHF_B": 0.4
+        }
+      },
+      "YUANWANG": {
+        "controller": {
+          "kind": "none",
+          "leader": null,
+          "members": [],
+          "pct": 0.2,
+          "relation_id": null,
+          "basis": "股权分散，单一股东最高20.00%，不足30%"
+        },
+        "beneficial_owners": [],
+        "effective": {
+          "P_LGD": 0.2,
+          "P_ZHAO": 0.2,
+          "P_LIN": 0.2,
+          "P_ZHOU": 0.2,
+          "P_SUN": 0.2
+        },
+        "legal_effective": {
+          "P_LGD": 0.2,
+          "P_ZHAO": 0.2,
+          "P_LIN": 0.2,
+          "P_ZHOU": 0.2,
+          "P_SUN": 0.2
+        },
+        "direct_holders": {
+          "P_LGD": 0.2,
+          "P_ZHAO": 0.2,
+          "P_LIN": 0.2,
+          "P_ZHOU": 0.2,
+          "P_SUN": 0.2
+        }
+      },
+      "NOISE1": {
+        "controller": {
+          "kind": "person",
+          "leader": "P_WHF_B",
+          "members": [
+            "P_WHF_B"
+          ],
+          "pct": 0.6,
+          "relation_id": null,
+          "basis": "直接及穿透持股60.00%"
+        },
+        "beneficial_owners": [
+          {
+            "person_id": "P_WHF_B",
+            "pct": 0.6
+          },
+          {
+            "person_id": "P_ZHOU",
+            "pct": 0.4
+          }
+        ],
+        "effective": {
+          "P_WHF_B": 0.6,
+          "P_ZHOU": 0.4
+        },
+        "legal_effective": {
+          "P_WHF_B": 0.6,
+          "P_ZHOU": 0.4
+        },
+        "direct_holders": {
+          "P_WHF_B": 0.6,
+          "P_ZHOU": 0.4
+        }
+      },
+      "NOISE2": {
+        "controller": {
+          "kind": "person",
+          "leader": "P_ZHOU",
+          "members": [
+            "P_ZHOU"
+          ],
+          "pct": 0.6,
+          "relation_id": null,
+          "basis": "直接及穿透持股60.00%"
+        },
+        "beneficial_owners": [
+          {
+            "person_id": "P_ZHOU",
+            "pct": 0.6
+          },
+          {
+            "person_id": "P_WUJ",
+            "pct": 0.4
+          }
+        ],
+        "effective": {
+          "P_ZHOU": 0.6,
+          "P_WUJ": 0.4
+        },
+        "legal_effective": {
+          "P_ZHOU": 0.6,
+          "P_WUJ": 0.4
+        },
+        "direct_holders": {
+          "P_ZHOU": 0.6,
+          "P_WUJ": 0.4
+        }
+      },
+      "NOISE3": {
+        "controller": {
+          "kind": "person",
+          "leader": "P_WUJ",
+          "members": [
+            "P_WUJ"
+          ],
+          "pct": 0.7,
+          "relation_id": null,
+          "basis": "直接及穿透持股70.00%"
+        },
+        "beneficial_owners": [
+          {
+            "person_id": "P_WUJ",
+            "pct": 0.7
+          },
+          {
+            "person_id": "P_ZHENG",
+            "pct": 0.3
+          }
+        ],
+        "effective": {
+          "P_WUJ": 0.7,
+          "P_ZHENG": 0.3
+        },
+        "legal_effective": {
+          "P_WUJ": 0.7,
+          "P_ZHENG": 0.3
+        },
+        "direct_holders": {
+          "P_WUJ": 0.7,
+          "P_ZHENG": 0.3
+        }
+      },
+      "AMBIG": {
+        "controller": {
+          "kind": "person",
+          "leader": "P_WHF_B",
+          "members": [
+            "P_WHF_B"
+          ],
+          "pct": 1.0,
+          "relation_id": null,
+          "basis": "直接及穿透持股100.00%"
+        },
+        "beneficial_owners": [
+          {
+            "person_id": "P_WHF_B",
+            "pct": 1.0
+          }
+        ],
+        "effective": {
+          "P_WHF_B": 1.0
+        },
+        "legal_effective": {
+          "P_WHF_B": 1.0
+        },
+        "direct_holders": {
+          "P_WHF_B": 1.0
+        }
+      },
+      "NOISE4": {
+        "controller": {
+          "kind": "person",
+          "leader": "P_FENG",
+          "members": [
+            "P_FENG"
+          ],
+          "pct": 0.7,
+          "relation_id": null,
+          "basis": "直接及穿透持股70.00%"
+        },
+        "beneficial_owners": [
+          {
+            "person_id": "P_FENG",
+            "pct": 0.7
+          },
+          {
+            "person_id": "P_WHF_D",
+            "pct": 0.3
+          }
+        ],
+        "effective": {
+          "P_WHF_D": 0.3,
+          "P_FENG": 0.7
+        },
+        "legal_effective": {
+          "P_WHF_D": 0.3,
+          "P_FENG": 0.7
+        },
+        "direct_holders": {
+          "P_WHF_D": 0.3,
+          "P_FENG": 0.7
+        }
+      }
+    }
+  },
+  "S2": {
+    "date": "2025-12-31",
+    "companies": {
+      "BLUE": {
+        "controller": {
+          "kind": "person",
+          "leader": "P_WHF_A",
+          "members": [
+            "P_WHF_A"
+          ],
+          "pct": 0.394865,
+          "relation_id": null,
+          "basis": "直接及穿透持股39.49%"
+        },
+        "beneficial_owners": [
+          {
+            "person_id": "P_WHF_A",
+            "pct": 0.394865
+          },
+          {
+            "person_id": "P_CZY",
+            "pct": 0.366516
+          }
+        ],
+        "effective": {
+          "P_WHF_A": 0.394865,
+          "P_CZY": 0.366516,
+          "P_LGD": 0.05438,
+          "P_LIN": 0.184239
+        },
+        "legal_effective": {
+          "P_WHF_A": 0.394865,
+          "P_CZY": 0.366516,
+          "P_LGD": 0.05438,
+          "P_LIN": 0.184239
+        },
+        "direct_holders": {
+          "STAR": 0.4,
+          "QH": 0.2,
+          "P_WHF_A": 0.15,
+          "P_CZY": 0.1,
+          "P_LIN": 0.1,
+          "P_LGD": 0.05
+        }
+      },
+      "STAR": {
+        "controller": {
+          "kind": "person",
+          "leader": "P_CZY",
+          "members": [
+            "P_CZY"
+          ],
+          "pct": 0.504977,
+          "relation_id": null,
+          "basis": "直接及穿透持股50.50%"
+        },
+        "beneficial_owners": [
+          {
+            "person_id": "P_CZY",
+            "pct": 0.504977
+          },
+          {
+            "person_id": "P_WHF_A",
+            "pct": 0.45923
+          }
+        ],
+        "effective": {
+          "P_WHF_A": 0.45923,
+          "P_CZY": 0.504977,
+          "P_LGD": 0.008157,
+          "P_LIN": 0.027636
+        },
+        "legal_effective": {
+          "P_WHF_A": 0.45923,
+          "P_CZY": 0.504977,
+          "P_LGD": 0.008157,
+          "P_LIN": 0.027636
+        },
+        "direct_holders": {
+          "P_WHF_A": 0.4,
+          "P_CZY": 0.45,
+          "BLUE": 0.15
+        }
+      },
+      "PC": {
+        "controller": {
+          "kind": "person",
+          "leader": "P_CZY",
+          "members": [
+            "P_CZY"
+          ],
+          "pct": 0.650995,
+          "relation_id": null,
+          "basis": "直接及穿透持股65.10%"
+        },
+        "beneficial_owners": [
+          {
+            "person_id": "P_CZY",
+            "pct": 0.650995
+          }
+        ],
+        "effective": {
+          "P_WHF_A": 0.091846,
+          "P_WHF_B": 0.1,
+          "P_CZY": 0.650995,
+          "P_LGD": 0.001631,
+          "P_ZHAO": 0.15,
+          "P_LIN": 0.005527
+        },
+        "legal_effective": {
+          "P_WHF_A": 0.091846,
+          "P_WHF_B": 0.1,
+          "P_CZY": 0.650995,
+          "P_LGD": 0.001631,
+          "P_ZHAO": 0.15,
+          "P_LIN": 0.005527
+        },
+        "direct_holders": {
+          "P_CZY": 0.55,
+          "P_ZHAO": 0.15,
+          "P_WHF_B": 0.1,
+          "STAR": 0.2
+        }
+      },
+      "ZY": {
+        "controller": {
+          "kind": "group",
+          "leader": "P_WHF_A",
+          "members": [
+            "P_LIN",
+            "P_WHF_A"
+          ],
+          "pct": 0.632682,
+          "relation_id": "R2",
+          "basis": "一致行动合计63.27%，牵头人P_WHF_A"
+        },
+        "beneficial_owners": [
+          {
+            "person_id": "P_WHF_A",
+            "pct": 0.333799
+          },
+          {
+            "person_id": "P_LIN",
+            "pct": 0.298883
+          },
+          {
+            "person_id": "P_CZY",
+            "pct": 0.258939
+          }
+        ],
+        "effective": {
+          "P_WHF_A": 0.333799,
+          "P_CZY": 0.258939,
+          "P_LGD": 0.10838,
+          "P_LIN": 0.298883
+        },
+        "legal_effective": {
+          "P_WHF_A": 0.333799,
+          "P_CZY": 0.258939,
+          "P_LGD": 0.10838,
+          "P_LIN": 0.298883
+        },
+        "direct_holders": {
+          "P_WHF_A": 0.25,
+          "P_CZY": 0.15,
+          "P_LGD": 0.1,
+          "P_LIN": 0.2,
+          "QM": 0.3
+        }
+      },
+      "QM": {
+        "controller": {
+          "kind": "group",
+          "leader": "P_CZY",
+          "members": [
+            "P_CZY",
+            "P_WHF_A"
+          ],
+          "pct": 0.642458,
+          "relation_id": "R3",
+          "basis": "一致行动合计64.25%，牵头人P_CZY"
+        },
+        "beneficial_owners": [
+          {
+            "person_id": "P_CZY",
+            "pct": 0.363128
+          },
+          {
+            "person_id": "P_LIN",
+            "pct": 0.329609
+          },
+          {
+            "person_id": "P_WHF_A",
+            "pct": 0.27933
+          }
+        ],
+        "effective": {
+          "P_WHF_A": 0.27933,
+          "P_CZY": 0.363128,
+          "P_LGD": 0.027933,
+          "P_LIN": 0.329609
+        },
+        "legal_effective": {
+          "P_WHF_A": 0.27933,
+          "P_CZY": 0.363128,
+          "P_LGD": 0.027933,
+          "P_LIN": 0.329609
+        },
+        "direct_holders": {
+          "P_WHF_A": 0.15,
+          "P_CZY": 0.25,
+          "P_LIN": 0.2,
+          "ZY": 0.25,
+          "QH": 0.15
+        }
+      },
+      "QH": {
+        "controller": {
+          "kind": "group",
+          "leader": "P_CZY",
+          "members": [
+            "P_CZY",
+            "P_WHF_A"
+          ],
+          "pct": 0.628492,
+          "relation_id": "R1",
+          "basis": "一致行动合计62.85%，牵头人P_CZY"
+        },
+        "beneficial_owners": [
+          {
+            "person_id": "P_LIN",
+            "pct": 0.365922
+          },
+          {
+            "person_id": "P_CZY",
+            "pct": 0.322626
+          },
+          {
+            "person_id": "P_WHF_A",
+            "pct": 0.305866
+          }
+        ],
+        "effective": {
+          "P_WHF_A": 0.305866,
+          "P_CZY": 0.322626,
+          "P_LGD": 0.005587,
+          "P_LIN": 0.365922
+        },
+        "legal_effective": {
+          "P_WHF_A": 0.305866,
+          "P_CZY": 0.322626,
+          "P_LGD": 0.005587,
+          "P_LIN": 0.365922
+        },
+        "direct_holders": {
+          "P_WHF_A": 0.25,
+          "P_CZY": 0.25,
+          "P_LIN": 0.3,
+          "QM": 0.2
+        }
+      },
+      "HC": {
+        "controller": {
+          "kind": "person",
+          "leader": "P_CZY",
+          "members": [
+            "P_CZY"
+          ],
+          "pct": 0.350307,
+          "relation_id": null,
+          "basis": "直接及穿透持股35.03%"
+        },
+        "beneficial_owners": [
+          {
+            "person_id": "P_CZY",
+            "pct": 0.350307
+          },
+          {
+            "person_id": "P_WHF_A",
+            "pct": 0.256006
+          }
+        ],
+        "effective": {
+          "P_WHF_A": 0.256006,
+          "P_CZY": 0.350307,
+          "P_LGD": 0.088101,
+          "P_LIN": 0.155587,
+          "P_SUN": 0.036,
+          "P_WUJ": 0.0225,
+          "P_ZHENG": 0.018,
+          "P_MA": 0.0735
+        },
+        "legal_effective": {
+          "P_WHF_A": 0.256006,
+          "P_CZY": 0.350307,
+          "P_LGD": 0.088101,
+          "P_LIN": 0.155587,
+          "P_SUN": 0.036,
+          "P_WUJ": 0.0225,
+          "P_ZHENG": 0.018,
+          "P_MA": 0.0735
+        },
+        "direct_holders": {
+          "ZY": 0.3,
+          "QM": 0.2,
+          "HK": 0.15,
+          "P_CZY": 0.2,
+          "P_WHF_A": 0.1,
+          "P_LGD": 0.05
+        }
+      },
+      "ZHI": {
+        "controller": {
+          "kind": "person",
+          "leader": "P_CZY",
+          "members": [
+            "P_CZY"
+          ],
+          "pct": 0.492669,
+          "relation_id": null,
+          "basis": "直接及穿透持股49.27%"
+        },
+        "beneficial_owners": [
+          {
+            "person_id": "P_CZY",
+            "pct": 0.492669
+          }
+        ],
+        "effective": {
+          "P_WHF_A": 0.140803,
+          "P_CZY": 0.492669,
+          "P_LGD": 0.048455,
+          "P_LIN": 0.085573,
+          "P_SUN": 0.0198,
+          "P_WUJ": 0.012375,
+          "P_ZHENG": 0.1599,
+          "P_MA": 0.040425
+        },
+        "legal_effective": {
+          "P_WHF_A": 0.140803,
+          "P_CZY": 0.492669,
+          "P_LGD": 0.048455,
+          "P_LIN": 0.085573,
+          "P_SUN": 0.0198,
+          "P_WUJ": 0.012375,
+          "P_ZHENG": 0.1599,
+          "P_MA": 0.040425
+        },
+        "direct_holders": {
+          "HC": 0.55,
+          "P_CZY": 0.3,
+          "P_ZHENG": 0.15
+        }
+      },
+      "HENG": {
+        "controller": {
+          "kind": "person",
+          "leader": "P_CZY",
+          "members": [
+            "P_CZY"
+          ],
+          "pct": 0.33046,
+          "relation_id": null,
+          "basis": "直接及穿透持股33.05%"
+        },
+        "beneficial_owners": [
+          {
+            "person_id": "P_CZY",
+            "pct": 0.33046
+          }
+        ],
+        "effective": {
+          "P_WHF_A": 0.087939,
+          "P_WHF_B": 0.04,
+          "P_CZY": 0.33046,
+          "P_LGD": 0.118273,
+          "P_ZHAO": 0.06,
+          "P_LIN": 0.233328,
+          "P_SUN": 0.0072,
+          "P_WUJ": 0.0045,
+          "P_ZHENG": 0.1036,
+          "P_MA": 0.0147
+        },
+        "legal_effective": {
+          "P_WHF_A": 0.087939,
+          "P_WHF_B": 0.04,
+          "P_CZY": 0.33046,
+          "P_LGD": 0.118273,
+          "P_ZHAO": 0.06,
+          "P_LIN": 0.233328,
+          "P_SUN": 0.0072,
+          "P_WUJ": 0.0045,
+          "P_ZHENG": 0.1036,
+          "P_MA": 0.0147
+        },
+        "direct_holders": {
+          "PC": 0.4,
+          "HC": 0.2,
+          "P_LIN": 0.2,
+          "P_LGD": 0.1,
+          "P_ZHENG": 0.1
+        }
+      },
+      "ZK": {
+        "controller": {
+          "kind": "person",
+          "leader": "P_SUN",
+          "members": [
+            "P_SUN"
+          ],
+          "pct": 0.4,
+          "relation_id": null,
+          "basis": "直接及穿透持股40.00%"
+        },
+        "beneficial_owners": [
+          {
+            "person_id": "P_SUN",
+            "pct": 0.4
+          }
+        ],
+        "effective": {
+          "P_SUN": 0.4,
+          "P_WUJ": 0.25,
+          "P_ZHENG": 0.2,
+          "P_MA": 0.15
+        },
+        "legal_effective": {
+          "P_SUN": 0.4,
+          "P_WUJ": 0.25,
+          "P_ZHENG": 0.2,
+          "P_MA": 0.15
+        },
+        "direct_holders": {
+          "P_SUN": 0.4,
+          "P_WUJ": 0.25,
+          "P_ZHENG": 0.2,
+          "P_MA": 0.15
+        }
+      },
+      "HK": {
+        "controller": {
+          "kind": "person",
+          "leader": "P_MA",
+          "members": [
+            "P_MA"
+          ],
+          "pct": 0.49,
+          "relation_id": null,
+          "basis": "直接及穿透持股49.00%"
+        },
+        "beneficial_owners": [
+          {
+            "person_id": "P_MA",
+            "pct": 0.49
+          }
+        ],
+        "effective": {
+          "P_SUN": 0.24,
+          "P_WUJ": 0.15,
+          "P_ZHENG": 0.12,
+          "P_MA": 0.49
+        },
+        "legal_effective": {
+          "P_SUN": 0.24,
+          "P_WUJ": 0.15,
+          "P_ZHENG": 0.12,
+          "P_MA": 0.49
+        },
+        "direct_holders": {
+          "P_MA": 0.4,
+          "ZK": 0.6
+        }
+      },
+      "BLUEDEV": {
+        "controller": {
+          "kind": "person",
+          "leader": "P_WHF_A",
+          "members": [
+            "P_WHF_A"
+          ],
+          "pct": 0.6,
+          "relation_id": null,
+          "basis": "直接及穿透持股60.00%"
+        },
+        "beneficial_owners": [
+          {
+            "person_id": "P_WHF_A",
+            "pct": 0.6
+          },
+          {
+            "person_id": "P_SUN",
+            "pct": 0.4
+          }
+        ],
+        "effective": {
+          "P_WHF_A": 0.6,
+          "P_SUN": 0.4
+        },
+        "legal_effective": {
+          "P_WHF_C": 0.6,
+          "P_SUN": 0.4
+        },
+        "direct_holders": {
+          "P_WHF_C": 0.6,
+          "P_SUN": 0.4
+        }
+      },
+      "XING": {
+        "controller": {
+          "kind": "person",
+          "leader": "P_WHF_A",
+          "members": [
+            "P_WHF_A"
+          ],
+          "pct": 0.55,
+          "relation_id": null,
+          "basis": "直接及穿透持股55.00%"
+        },
+        "beneficial_owners": [
+          {
+            "person_id": "P_WHF_A",
+            "pct": 0.55
+          },
+          {
+            "person_id": "P_WHF_B",
+            "pct": 0.45
+          }
+        ],
+        "effective": {
+          "P_WHF_A": 0.55,
+          "P_WHF_B": 0.45
+        },
+        "legal_effective": {
+          "P_WHF_A": 0.55,
+          "P_WHF_B": 0.05,
+          "P_ZHOU": 0.4
+        },
+        "direct_holders": {
+          "P_WHF_A": 0.55,
+          "P_ZHOU": 0.4,
+          "P_WHF_B": 0.05
+        }
+      },
+      "COOP": {
+        "controller": {
+          "kind": "person",
+          "leader": "P_WHF_A",
+          "members": [
+            "P_WHF_A"
+          ],
+          "pct": 0.55,
+          "relation_id": null,
+          "basis": "直接及穿透持股55.00%"
+        },
+        "beneficial_owners": [
+          {
+            "person_id": "P_WHF_A",
+            "pct": 0.55
+          },
+          {
+            "person_id": "P_WHF_B",
+            "pct": 0.45
+          }
+        ],
+        "effective": {
+          "P_WHF_A": 0.55,
+          "P_WHF_B": 0.45
+        },
+        "legal_effective": {
+          "P_WHF_A": 0.55,
+          "P_WHF_B": 0.45
+        },
+        "direct_holders": {
+          "P_WHF_A": 0.55,
+          "P_WHF_B": 0.45
+        }
+      },
+      "YUANWANG": {
+        "controller": {
+          "kind": "none",
+          "leader": null,
+          "members": [],
+          "pct": 0.2,
+          "relation_id": null,
+          "basis": "股权分散，单一股东最高20.00%，不足30%"
+        },
+        "beneficial_owners": [],
+        "effective": {
+          "P_LGD": 0.2,
+          "P_ZHAO": 0.2,
+          "P_LIN": 0.2,
+          "P_ZHOU": 0.2,
+          "P_SUN": 0.2
+        },
+        "legal_effective": {
+          "P_LGD": 0.2,
+          "P_ZHAO": 0.2,
+          "P_LIN": 0.2,
+          "P_ZHOU": 0.2,
+          "P_SUN": 0.2
+        },
+        "direct_holders": {
+          "P_LGD": 0.2,
+          "P_ZHAO": 0.2,
+          "P_LIN": 0.2,
+          "P_ZHOU": 0.2,
+          "P_SUN": 0.2
+        }
+      },
+      "NOISE1": {
+        "controller": {
+          "kind": "person",
+          "leader": "P_WHF_B",
+          "members": [
+            "P_WHF_B"
+          ],
+          "pct": 0.6,
+          "relation_id": null,
+          "basis": "直接及穿透持股60.00%"
+        },
+        "beneficial_owners": [
+          {
+            "person_id": "P_WHF_B",
+            "pct": 0.6
+          },
+          {
+            "person_id": "P_ZHOU",
+            "pct": 0.4
+          }
+        ],
+        "effective": {
+          "P_WHF_B": 0.6,
+          "P_ZHOU": 0.4
+        },
+        "legal_effective": {
+          "P_WHF_B": 0.6,
+          "P_ZHOU": 0.4
+        },
+        "direct_holders": {
+          "P_WHF_B": 0.6,
+          "P_ZHOU": 0.4
+        }
+      },
+      "NOISE2": {
+        "controller": {
+          "kind": "person",
+          "leader": "P_ZHOU",
+          "members": [
+            "P_ZHOU"
+          ],
+          "pct": 0.6,
+          "relation_id": null,
+          "basis": "直接及穿透持股60.00%"
+        },
+        "beneficial_owners": [
+          {
+            "person_id": "P_ZHOU",
+            "pct": 0.6
+          },
+          {
+            "person_id": "P_WUJ",
+            "pct": 0.35
+          }
+        ],
+        "effective": {
+          "P_WHF_D": 0.05,
+          "P_ZHOU": 0.6,
+          "P_WUJ": 0.35
+        },
+        "legal_effective": {
+          "P_WHF_D": 0.05,
+          "P_ZHOU": 0.6,
+          "P_WUJ": 0.35
+        },
+        "direct_holders": {
+          "P_ZHOU": 0.6,
+          "P_WUJ": 0.35,
+          "P_WHF_D": 0.05
+        }
+      },
+      "NOISE3": {
+        "controller": {
+          "kind": "person",
+          "leader": "P_WUJ",
+          "members": [
+            "P_WUJ"
+          ],
+          "pct": 0.7,
+          "relation_id": null,
+          "basis": "直接及穿透持股70.00%"
+        },
+        "beneficial_owners": [
+          {
+            "person_id": "P_WUJ",
+            "pct": 0.7
+          },
+          {
+            "person_id": "P_ZHENG",
+            "pct": 0.3
+          }
+        ],
+        "effective": {
+          "P_WUJ": 0.7,
+          "P_ZHENG": 0.3
+        },
+        "legal_effective": {
+          "P_WUJ": 0.7,
+          "P_ZHENG": 0.3
+        },
+        "direct_holders": {
+          "P_WUJ": 0.7,
+          "P_ZHENG": 0.3
+        }
+      },
+      "AMBIG": {
+        "controller": {
+          "kind": "person",
+          "leader": "P_WHF_B",
+          "members": [
+            "P_WHF_B"
+          ],
+          "pct": 1.0,
+          "relation_id": null,
+          "basis": "直接及穿透持股100.00%"
+        },
+        "beneficial_owners": [
+          {
+            "person_id": "P_WHF_B",
+            "pct": 1.0
+          }
+        ],
+        "effective": {
+          "P_WHF_B": 1.0
+        },
+        "legal_effective": {
+          "P_WHF_B": 1.0
+        },
+        "direct_holders": {
+          "P_WHF_B": 1.0
+        }
+      },
+      "NOISE4": {
+        "controller": {
+          "kind": "person",
+          "leader": "P_FENG",
+          "members": [
+            "P_FENG"
+          ],
+          "pct": 0.7,
+          "relation_id": null,
+          "basis": "直接及穿透持股70.00%"
+        },
+        "beneficial_owners": [
+          {
+            "person_id": "P_FENG",
+            "pct": 0.7
+          },
+          {
+            "person_id": "P_WHF_D",
+            "pct": 0.3
+          }
+        ],
+        "effective": {
+          "P_WHF_D": 0.3,
+          "P_FENG": 0.7
+        },
+        "legal_effective": {
+          "P_WHF_D": 0.3,
+          "P_FENG": 0.7
+        },
+        "direct_holders": {
+          "P_WHF_D": 0.3,
+          "P_FENG": 0.7
+        }
+      }
+    }
+  }
+}

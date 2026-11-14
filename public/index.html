@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>股权穿透分析控制台</title>
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">
+    <span class="logo">◈</span>
+    <div>
+      <h1>股权穿透分析控制台</h1>
+      <p class="sub">企业征信 · 主体消歧 · 实际控制人识别</p>
+    </div>
+  </div>
+  <div class="topbar-actions">
+    <span id="datasetBadge" class="badge muted">未载入数据</span>
+    <span id="clockDate" class="badge ghost"></span>
+    <button id="loadDemoBtn" class="btn primary">载入演示数据</button>
+  </div>
+</header>
+
+<nav class="tabs" id="tabs">
+  <button data-page="import" class="tab active">1 · 数据导入</button>
+  <button data-page="entities" class="tab">2 · 主体消歧</button>
+  <button data-page="graph" class="tab">3 · 股权图谱</button>
+  <button data-page="controllers" class="tab">4 · 实控人与变更历史</button>
+  <button data-page="accuracy" class="tab">5 · 准确率评估</button>
+</nav>
+
+<main>
+  <section id="page-import" class="page active">
+    <div class="page-head">
+      <div>
+        <h2>数据导入</h2>
+        <p>导入工商登记、股东持股与变更记录，支持字段映射自定义（中英文表头 / 任意列名）。</p>
+      </div>
+      <div class="head-actions">
+        <button id="resetBtn" class="btn danger ghost">清空数据</button>
+        <button id="stateBtn" class="btn ghost">查看会话状态</button>
+      </div>
+    </div>
+
+    <div class="grid-3">
+      <div class="card import-card" data-kind="companies">
+        <div class="card-head">
+          <h3>1. 企业登记表</h3><span class="tag">companies.csv</span>
+        </div>
+        <p class="hint">企业名称、统一社会信用代码、地址、简称、曾用名、快照日期。</p>
+        <input type="file" class="file-input" accept=".csv,.tsv,.txt">
+        <div class="drop-zone">拖拽 CSV 到此处，或 <span>点击选择文件</span></div>
+        <div class="mapping-editor" data-kind="companies"></div>
+        <div class="import-result"></div>
+      </div>
+
+      <div class="card import-card" data-kind="holders">
+        <div class="card-head">
+          <h3>2. 股东持股表</h3><span class="tag">holders.csv</span>
+        </div>
+        <p class="hint">支持 60% / 0.6 / 60 三种比例写法，日期支持 2022/02/01 与 2022-02-01。</p>
+        <input type="file" class="file-input" accept=".csv,.tsv,.txt">
+        <div class="drop-zone">拖拽 CSV 到此处，或 <span>点击选择文件</span></div>
+        <div class="mapping-editor" data-kind="holders"></div>
+        <div class="import-result"></div>
+      </div>
+
+      <div class="card import-card" data-kind="changes">
+        <div class="card-head">
+          <h3>3. 变更记录表</h3><span class="tag">changes.csv</span>
+        </div>
+        <p class="hint">名称/地址/法人变更与股权变更，用于历史时点与曾用名归并。</p>
+        <input type="file" class="file-input" accept=".csv,.tsv,.txt">
+        <div class="drop-zone">拖拽 CSV 到此处，或 <span>点击选择文件</span></div>
+        <div class="mapping-editor" data-kind="changes"></div>
+        <div class="import-result"></div>
+      </div>
+    </div>
+
+    <div class="grid-2 mt">
+      <div class="card">
+        <div class="card-head"><h3>导入流水</h3></div>
+        <div id="importLog" class="log-list empty-state">尚无导入记录</div>
+      </div>
+      <div class="card">
+        <div class="card-head"><h3>数据质量提示</h3><span id="issueCount" class="tag warn">0</span></div>
+        <div id="issueList" class="log-list empty-state">导入后将显示字段缺失、比例越界、日期异常等问题</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="page-entities" class="page">
+    <div class="page-head">
+      <div>
+        <h2>主体消歧</h2>
+        <p>企业按统一社会信用代码与曾用名归并；同名自然人按证件片段、任职与地址区分。</p>
+      </div>
+      <div class="head-actions">
+        <input id="entitySearch" class="input" placeholder="搜索名称 / 简称 / 统一社会信用代码 / 证件片段">
+        <select id="entityKindFilter" class="select">
+          <option value="">全部主体</option>
+          <option value="company">企业</option>
+          <option value="person">自然人</option>
+        </select>
+        <button id="entityMerge" class="btn ghost" disabled>合并所选 (0)</button>
+        <button id="entityUndo" class="btn ghost">撤销人工调整</button>
+        <button id="entityRefresh" class="btn ghost">重新消歧</button>
+      </div>
+    </div>
+
+    <div class="grid-3 wide-left">
+      <div class="card">
+        <div class="card-head"><h3>主体清单</h3><span id="entityStats" class="tag">0 企业 / 0 个人</span></div>
+        <div id="entityList" class="entity-list empty-state">载入数据后显示归并结果</div>
+      </div>
+      <div class="card detail-card">
+        <div class="card-head"><h3>主体详情</h3><span id="entityDetailBadge" class="tag muted">未选择</h3></div>
+        <div id="entityDetail" class="empty-state">选择左侧主体查看归并证据、来源记录与人工拆分。</div>
+      </div>
+    </div>
+
+    <div class="grid-2 mt">
+      <div class="card">
+        <div class="card-head"><h3>同名干扰与冲突</h3><span id="conflictBadge" class="tag warn">0</span></div>
+        <div id="conflictList" class="log-list empty-state">同名主体会在此分组展示，用于核对是否被错误合并。</div>
+      </div>
+      <div class="card">
+        <div class="card-head"><h3>人工调整记录</h3><span id="manualBadge" class="tag muted">0</span></div>
+        <div id="manualList" class="log-list empty-state">尚无人工合并或拆分</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="page-graph" class="page">
+    <div class="page-head">
+      <div>
+        <h2>股权图谱</h2>
+        <p>滚轮缩放，拖拽平移；点击节点聚焦展开上下游，右侧显示穿透路径与环路处理。</p>
+      </div>
+      <div class="head-actions">
+        <label class="field">
+          <span>时点</span>
+          <input id="graphDate" type="date" class="input">
+        </label>
+        <select id="graphMode" class="select">
+          <option value="all">全部主体</option>
+          <option value="company">仅企业</option>
+        </select>
+        <button id="graphFit" class="btn ghost">重置视图</button>
+        <button id="graphDemoCycle" class="btn ghost">定位交叉持股</button>
+      </div>
+    </div>
+    <div class="graph-layout">
+      <div class="card graph-card">
+        <div class="graph-toolbar">
+          <span class="legend"><i class="dot person"></i>自然人</span>
+          <span class="legend"><i class="dot company"></i>企业</span>
+          <span class="legend"><i class="dot controller"></i>实际控制人</span>
+          <span class="legend"><i class="dot cycle"></i>交叉持股</span>
+          <span id="graphStats" class="graph-stats"></span>
+        </div>
+        <svg id="graphSvg" class="graph-svg"></svg>
+        <div id="graphTip" class="graph-tip"></div>
+        <div class="graph-zoom">
+          <button id="zoomIn">+</button>
+          <button id="zoomOut">−</button>
+          <button id="zoomFit">⤢</button>
+        </div>
+      </div>
+      <div class="card side-panel">
+        <div class="card-head"><h3>节点详情</h3><span id="selectedNodeBadge" class="tag muted">未选择</span></div>
+        <div id="nodeDetail" class="empty-state">点击图中节点查看持股链路、穿透比例与环路说明。</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="page-controllers" class="page">
+    <div class="page-head">
+      <div>
+        <h2>实际控制人与变更历史</h2>
+        <p>穿透比例识别实际控制人；一致行动与代持关系可人工补录；任意历史时点回看当时结构。</p>
+      </div>
+      <div class="head-actions">
+        <button id="exportBoBtn" class="btn primary">导出受益所有人清单 (&gt;25%)</button>
+        <button id="exportMatrixBtn" class="btn ghost">导出穿透持股矩阵</button>
+      </div>
+    </div>
+
+    <div class="grid-2">
+      <div class="card">
+        <div class="card-head"><h3>实际控制人判定</h3><span id="controllerCount" class="tag">0</span></div>
+        <div class="form-row">
+          <label class="field"><span>基准日</span><input id="ctrlDate" type="date" class="input"></label>
+          <label class="field"><span>控股阈值</span><input id="ctrlThreshold" type="number" class="input" value="30" min="1" max="100" step="1"></label>
+          <label class="field"><span>受益所有人阈值</span><input id="boThreshold" type="number" class="input" value="25" min="1" max="100" step="1"></label>
+        </div>
+        <div id="controllerList" class="controller-list empty-state">载入数据后自动识别</div>
+      </div>
+
+      <div class="card">
+        <div class="card-head"><h3>人工关系补录</h3><span class="tag">一致行动 / 代持</span></div>
+        <div id="relationForm" class="relation-form"></div>
+        <div class="card-subhead"><h3>已补录关系</h3></div>
+        <div id="relationList" class="relation-list empty-state">暂无人工录入的关系</div>
+      </div>
+    </div>
+
+    <div class="card mt">
+      <div class="card-head"><h3>历史时点回看</h3><span id="historyDatePrimer" class="tag">选择时点</span></div>
+      <div class="history-strip" id="historyStrip"></div>
+      <div id="historyView" class="empty-state">点击上方时点查看当期股权结构与实际控制人</div>
+    </div>
+  </section>
+
+  <section id="page-accuracy" class="page">
+    <div class="page-head">
+      <div>
+        <h2>准确率评估</h2>
+        <p>系统对真实实控人与主体归并结果独立存储的基准做比对，报告准确率与差异明细。</p>
+      </div>
+      <div class="head-actions"><button id="evalBtn" class="btn primary">重新评估</button></div>
+    </div>
+    <div id="accuracyRoot" class="accuracy-root empty-state">点击「重新评估」开始</div>
+  </section>
+</main>
+
+<div id="toast" class="toast"></div>
+<script src="/app.js"></script>
+</body>
+</html>

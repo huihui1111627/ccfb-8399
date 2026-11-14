@@ -16,3 +16,11 @@ node_modules/
 __pycache__/
 .venv/
 venv/
+node_modules
+.sample
+*.log
+.DS_Store
+dist/
+public/app.js
+public/app.js.map
+scratch/

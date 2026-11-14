@@ -1,0 +1,475 @@
+{
+  "entities": [
+    {
+      "entity_id": "CO_BLUE",
+      "kind": "company",
+      "key": "BLUE",
+      "canonical_name": "蓝海科技有限公司",
+      "uscc": "91440300MA5F0001XA",
+      "short_name": "蓝海科技",
+      "former_names": [
+        "蓝海网络技术有限公司"
+      ],
+      "address": "深圳市南山区科技园南区A栋18层",
+      "legal_rep": "P_WHF_A",
+      "aliases": [
+        "蓝海科技有限公司",
+        "蓝海科技",
+        "蓝海网络技术有限公司"
+      ]
+    },
+    {
+      "entity_id": "CO_STAR",
+      "kind": "company",
+      "key": "STAR",
+      "canonical_name": "星海控股有限公司",
+      "uscc": "91440300MA5F0002XB",
+      "short_name": "星海控股",
+      "former_names": [
+        "星海投资管理有限公司"
+      ],
+      "address": "深圳市福田区金田路3088号",
+      "legal_rep": "P_WHF_A",
+      "aliases": [
+        "星海控股有限公司",
+        "星海控股",
+        "星海投资管理有限公司"
+      ]
+    },
+    {
+      "entity_id": "CO_PC",
+      "kind": "company",
+      "key": "PC",
+      "canonical_name": "鹏程实业有限公司",
+      "uscc": "91440300MA5F0003XC",
+      "short_name": "鹏程实业",
+      "former_names": [],
+      "address": "深圳市罗湖区人民南路2008号",
+      "legal_rep": "P_CZY",
+      "aliases": [
+        "鹏程实业有限公司",
+        "鹏程实业"
+      ]
+    },
+    {
+      "entity_id": "CO_ZY",
+      "kind": "company",
+      "key": "ZY",
+      "canonical_name": "中原控股有限公司",
+      "uscc": "91410100MA3X0004XD",
+      "short_name": "中原控股",
+      "former_names": [],
+      "address": "郑州市金水区商务外环路10号",
+      "legal_rep": "P_LIN",
+      "aliases": [
+        "中原控股有限公司",
+        "中原控股"
+      ]
+    },
+    {
+      "entity_id": "CO_QM",
+      "kind": "company",
+      "key": "QM",
+      "canonical_name": "启明投资有限公司",
+      "uscc": "91310115MA1K0005XE",
+      "short_name": "启明投资",
+      "former_names": [
+        "启明创业投资有限公司"
+      ],
+      "address": "上海市浦东新区世纪大道100号",
+      "legal_rep": "P_CZY",
+      "aliases": [
+        "启明投资有限公司",
+        "启明投资",
+        "启明创业投资有限公司"
+      ]
+    },
+    {
+      "entity_id": "CO_QH",
+      "kind": "company",
+      "key": "QH",
+      "canonical_name": "启明汇智科技有限公司",
+      "uscc": "91310115MA1K0006XF",
+      "short_name": "启明汇智",
+      "former_names": [],
+      "address": "上海市浦东新区张江路88号",
+      "legal_rep": "P_LIN",
+      "aliases": [
+        "启明汇智科技有限公司",
+        "启明汇智"
+      ]
+    },
+    {
+      "entity_id": "CO_HC",
+      "kind": "company",
+      "key": "HC",
+      "canonical_name": "华创科技有限公司",
+      "uscc": "91440300MA5F0007XG",
+      "short_name": "华创科技",
+      "former_names": [],
+      "address": "深圳市南山区高新南一道9号",
+      "legal_rep": "P_CZY",
+      "aliases": [
+        "华创科技有限公司",
+        "华创科技"
+      ]
+    },
+    {
+      "entity_id": "CO_ZHI",
+      "kind": "company",
+      "key": "ZHI",
+      "canonical_name": "智源智能装备有限公司",
+      "uscc": "91442000MA4W0008XH",
+      "short_name": "智源智能",
+      "former_names": [],
+      "address": "中山市火炬开发区兴业路6号",
+      "legal_rep": "P_CZY",
+      "aliases": [
+        "智源智能装备有限公司",
+        "智源智能"
+      ]
+    },
+    {
+      "entity_id": "CO_HENG",
+      "kind": "company",
+      "key": "HENG",
+      "canonical_name": "恒昌贸易有限公司",
+      "uscc": "91440300MA5F0009XI",
+      "short_name": "恒昌贸易",
+      "former_names": [],
+      "address": "深圳市宝安区新安街道海秀路",
+      "legal_rep": "P_LIN",
+      "aliases": [
+        "恒昌贸易有限公司",
+        "恒昌贸易"
+      ]
+    },
+    {
+      "entity_id": "CO_ZK",
+      "kind": "company",
+      "key": "ZK",
+      "canonical_name": "中科数据服务有限公司",
+      "uscc": "91110108MA010010XJ",
+      "short_name": "中科数据",
+      "former_names": [],
+      "address": "北京市海淀区中关村大街18号",
+      "legal_rep": "P_SUN",
+      "aliases": [
+        "中科数据服务有限公司",
+        "中科数据"
+      ]
+    },
+    {
+      "entity_id": "CO_HK",
+      "kind": "company",
+      "key": "HK",
+      "canonical_name": "中科数据（香港）有限公司",
+      "uscc": "HK-90010011XK",
+      "short_name": "中科香港",
+      "former_names": [],
+      "address": "香港中环皇后大道中99号",
+      "legal_rep": "P_MA",
+      "aliases": [
+        "中科数据（香港）有限公司",
+        "中科香港"
+      ]
+    },
+    {
+      "entity_id": "CO_BLUEDEV",
+      "kind": "company",
+      "key": "BLUEDEV",
+      "canonical_name": "蓝海智造设备有限公司",
+      "uscc": "91440300MA5F0012XL",
+      "short_name": "蓝海智造",
+      "former_names": [],
+      "address": "上海市浦东新区川沙路200号",
+      "legal_rep": "P_WHF_C",
+      "aliases": [
+        "蓝海智造设备有限公司",
+        "蓝海智造"
+      ]
+    },
+    {
+      "entity_id": "CO_XING",
+      "kind": "company",
+      "key": "XING",
+      "canonical_name": "星海资本管理有限公司",
+      "uscc": "91440300MA5F0013XM",
+      "short_name": "星海资本",
+      "former_names": [],
+      "address": "深圳市福田区金田路3088号",
+      "legal_rep": "P_WHF_A",
+      "aliases": [
+        "星海资本管理有限公司",
+        "星海资本"
+      ]
+    },
+    {
+      "entity_id": "CO_COOP",
+      "kind": "company",
+      "key": "COOP",
+      "canonical_name": "蓝海同创企业管理合伙企业（有限合伙）",
+      "uscc": "91440300MA5F0014XN",
+      "short_name": "蓝海同创",
+      "former_names": [],
+      "address": "深圳市南山区科技园南区A栋18层",
+      "legal_rep": "P_WHF_B",
+      "aliases": [
+        "蓝海同创企业管理合伙企业（有限合伙）",
+        "蓝海同创"
+      ]
+    },
+    {
+      "entity_id": "CO_YUANWANG",
+      "kind": "company",
+      "key": "YUANWANG",
+      "canonical_name": "元望咨询有限公司",
+      "uscc": "91110105MA010015XP",
+      "short_name": "元望咨询",
+      "former_names": [],
+      "address": "北京市朝阳区建国路88号",
+      "legal_rep": "P_LGD",
+      "aliases": [
+        "元望咨询有限公司",
+        "元望咨询"
+      ]
+    },
+    {
+      "entity_id": "CO_NOISE1",
+      "kind": "company",
+      "key": "NOISE1",
+      "canonical_name": "蓝海贸易有限公司",
+      "uscc": "91440300MA5F0016XQ",
+      "short_name": "蓝海贸易",
+      "former_names": [],
+      "address": "深圳市龙岗区布吉街道吉华路",
+      "legal_rep": "P_WHF_B",
+      "aliases": [
+        "蓝海贸易有限公司",
+        "蓝海贸易"
+      ]
+    },
+    {
+      "entity_id": "CO_NOISE2",
+      "kind": "company",
+      "key": "NOISE2",
+      "canonical_name": "星海传媒有限公司",
+      "uscc": "91440300MA5F0017XR",
+      "short_name": "星海传媒",
+      "former_names": [],
+      "address": "深圳市南山区海德三道199号",
+      "legal_rep": "P_ZHOU",
+      "aliases": [
+        "星海传媒有限公司",
+        "星海传媒"
+      ]
+    },
+    {
+      "entity_id": "CO_NOISE3",
+      "kind": "company",
+      "key": "NOISE3",
+      "canonical_name": "启明生物科技有限公司",
+      "uscc": "91310115MA1K0018XS",
+      "short_name": "启明生物",
+      "former_names": [],
+      "address": "上海市浦东新区张江路100号",
+      "legal_rep": "P_WUJ",
+      "aliases": [
+        "启明生物科技有限公司",
+        "启明生物"
+      ]
+    },
+    {
+      "entity_id": "CO_AMBIG",
+      "kind": "company",
+      "key": "AMBIG",
+      "canonical_name": "海峰投资有限公司",
+      "uscc": "91440300MA5F0019XT",
+      "short_name": "海峰投资",
+      "former_names": [],
+      "address": "深圳市南山区粤海街道海德三道199号",
+      "legal_rep": "P_WHF_B",
+      "aliases": [
+        "海峰投资有限公司",
+        "海峰投资"
+      ]
+    },
+    {
+      "entity_id": "CO_NOISE4",
+      "kind": "company",
+      "key": "NOISE4",
+      "canonical_name": "海峰资本管理有限公司",
+      "uscc": "91440300MA5F0020XU",
+      "short_name": "海峰资本",
+      "former_names": [],
+      "address": "北京市朝阳区建国路88号",
+      "legal_rep": "P_WHF_D",
+      "aliases": [
+        "海峰资本管理有限公司",
+        "海峰资本"
+      ]
+    },
+    {
+      "entity_id": "PE_P_WHF_A",
+      "kind": "person",
+      "key": "P_WHF_A",
+      "canonical_name": "王海峰",
+      "id_fragment": "110101********1234",
+      "address": "北京市朝阳区建国路88号"
+    },
+    {
+      "entity_id": "PE_P_WHF_B",
+      "kind": "person",
+      "key": "P_WHF_B",
+      "canonical_name": "王海峰",
+      "id_fragment": "440301********5678",
+      "address": "深圳市福田区香蜜湖路1号"
+    },
+    {
+      "entity_id": "PE_P_WHF_C",
+      "kind": "person",
+      "key": "P_WHF_C",
+      "canonical_name": "王海峰",
+      "id_fragment": "310104********9012",
+      "address": "上海市浦东新区川沙路300号"
+    },
+    {
+      "entity_id": "PE_P_WHF_D",
+      "kind": "person",
+      "key": "P_WHF_D",
+      "canonical_name": "王海峰",
+      "id_fragment": "110101********1239",
+      "address": "北京市朝阳区建国路88号"
+    },
+    {
+      "entity_id": "PE_P_CZY",
+      "kind": "person",
+      "key": "P_CZY",
+      "canonical_name": "陈志远",
+      "id_fragment": "310110********3456",
+      "address": "上海市浦东新区世纪大道100号"
+    },
+    {
+      "entity_id": "PE_P_LGD",
+      "kind": "person",
+      "key": "P_LGD",
+      "canonical_name": "李国栋",
+      "id_fragment": "440305********7890",
+      "address": "深圳市南山区高新南一道9号"
+    },
+    {
+      "entity_id": "PE_P_ZHAO",
+      "kind": "person",
+      "key": "P_ZHAO",
+      "canonical_name": "赵明",
+      "id_fragment": "330106********2233",
+      "address": "杭州市西湖区文三路90号"
+    },
+    {
+      "entity_id": "PE_P_LIN",
+      "kind": "person",
+      "key": "P_LIN",
+      "canonical_name": "林晓",
+      "id_fragment": "330106********4321",
+      "address": "杭州市西湖区文三路90号"
+    },
+    {
+      "entity_id": "PE_P_ZHOU",
+      "kind": "person",
+      "key": "P_ZHOU",
+      "canonical_name": "周敏",
+      "id_fragment": "440304********8765",
+      "address": "深圳市南山区海德三道199号"
+    },
+    {
+      "entity_id": "PE_P_SUN",
+      "kind": "person",
+      "key": "P_SUN",
+      "canonical_name": "孙强",
+      "id_fragment": "110108********6543",
+      "address": "北京市海淀区中关村大街18号"
+    },
+    {
+      "entity_id": "PE_P_WUJ",
+      "kind": "person",
+      "key": "P_WUJ",
+      "canonical_name": "吴静",
+      "id_fragment": "310115********1122",
+      "address": "上海市浦东新区张江路100号"
+    },
+    {
+      "entity_id": "PE_P_ZHENG",
+      "kind": "person",
+      "key": "P_ZHENG",
+      "canonical_name": "郑凯",
+      "id_fragment": "440106********3344",
+      "address": "广州市天河区体育西路103号"
+    },
+    {
+      "entity_id": "PE_P_MA",
+      "kind": "person",
+      "key": "P_MA",
+      "canonical_name": "马骏",
+      "id_fragment": "A123456(7)",
+      "address": "香港中环皇后大道中99号"
+    },
+    {
+      "entity_id": "PE_P_FENG",
+      "kind": "person",
+      "key": "P_FENG",
+      "canonical_name": "冯磊",
+      "id_fragment": "110105********8877",
+      "address": "北京市朝阳区建国路93号"
+    }
+  ],
+  "expectations": {
+    "same_name_persons_split": [
+      "P_WHF_A",
+      "P_WHF_B",
+      "P_WHF_C"
+    ],
+    "same_name_and_address_but_distinct": [
+      "P_WHF_A",
+      "P_WHF_D"
+    ],
+    "company_alias_groups": {
+      "BLUE": [
+        "蓝海科技有限公司",
+        "蓝海网络技术有限公司"
+      ],
+      "STAR": [
+        "星海控股有限公司",
+        "星海投资管理有限公司"
+      ],
+      "QM": [
+        "启明投资有限公司",
+        "启明创业投资有限公司"
+      ]
+    },
+    "never_merge": [
+      [
+        "海峰投资有限公司",
+        "蓝海科技有限公司"
+      ],
+      [
+        "蓝海科技有限公司",
+        "蓝海贸易有限公司"
+      ],
+      [
+        "启明投资有限公司",
+        "启明生物科技有限公司"
+      ],
+      [
+        "启明投资有限公司",
+        "启明汇智科技有限公司"
+      ]
+    ],
+    "noise_companies": [
+      "NOISE1",
+      "NOISE2",
+      "NOISE3",
+      "AMBIG",
+      "NOISE4"
+    ]
+  }
+}
